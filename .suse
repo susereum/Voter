@@ -25,16 +25,16 @@ NewuserLink = "http://129.108.7.2/connect/tmp.as33UCWtQP"
 Title = "Code Smell Family Configuration"
 
 [code_smells.method]
-SmallMethod = [ 100, 1,]
+SmallMethod = [ 1, 1,]
 LargeParameterList = [ 1, 1,]
-LargeMethod = [ 100, 1,]
+LargeMethod = [ 1, 1,]
 
 [code_smells.comments]
-CommentsToCodeRatioUpper = [ 50.0, 1.0,]
-CommentsToCodeRatioLower = [ 40.0, 1.0,]
+CommentsToCodeRatioUpper = [ 10.0, 1.0,]
+CommentsToCodeRatioLower = [ 5.0, 1.0,]
 
 [code_smells.class]
-SmallClass = [ 100, 1,]
+LargeClass = [ 1, 1,]
 GodClass = [ 1, 1,]
-LargeClass = [ 100, 1,]
 InappropriateIntimacy = [ 1, 1,]
+SmallClass = [ 1, 1,]
